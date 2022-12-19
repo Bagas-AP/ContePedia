@@ -175,7 +175,7 @@ body {
 .search-wrapper {
 	position: absolute;
 	top: 80px;
-	right: 500px;
+	right: 300px;
 	width: 100px;
 	background: rgba(33, 37, 41, 0.9);
 	border-radius: 0.25rem;

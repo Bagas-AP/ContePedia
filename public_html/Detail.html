@@ -33,7 +33,7 @@
             <div class="product-img">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="/public_html/assets/imgs/Detail/index.jpg" />
+                        <img src="/public_html/assets/imgs/Detail/gambar.jpg" />
                     </div>
                 </div>
                 <!--social-->
@@ -60,7 +60,7 @@
                 <!--btn-->
                 <div class="product-button">
                     <a href="#" class="add-bag-btn">DAFTAR SEKARANG</a>
-                    <a href="#" class="add-wishlist-btn">MASUKKAN KE LIST</a>
+                    <a href="/public_html/Content.html" class="add-wishlist-btn">Lihat Lomba Lainnya</a>
                 </div>
             </div>
         </div>
@@ -69,40 +69,6 @@
     <!--==Jquery===========================-->
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-                450: {
-                    slidesPerView: 2,
-                    spaceBetween: 0,
-                },
-                820: {
-                    slidesPerView: 1,
-                    spaceBetween: 0,
-                },
-                1024: {
-                    slidesPerView: 2,
-                    spaceBetween: 0,
-                },
-            },
-        });
-
-
-        $('.s-checkbox').on('change', function () {
-            $('.s-checkbox').not(this).prop('checked', false);
-        });
-    </script>
 </body>
 
 </html>

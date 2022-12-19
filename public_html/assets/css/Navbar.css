@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 *{
 	padding: 0;
 	margin: 0;
@@ -17,7 +19,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	background: transparent;
-	padding: 28px 12%;
+	padding: 10px 12%;
 	transition: all .50s ease;
 	background: whitesmoke;
 }
@@ -112,6 +114,7 @@ header{
 		justify-content: flex-start;
 		border-radius: 10px;
 		transition: all .50s ease;
+		background: wheat;
 	}
 	.navbar a{
 		display: block;

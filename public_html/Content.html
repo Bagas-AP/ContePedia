@@ -6,6 +6,18 @@
 		<title>Category Filter in JS</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="/public_html/assets/css/content.css" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.6.95/css/materialdesignicons.css" />
 		<script
 			src="https://kit.fontawesome.com/dbed6b6114.js"
 			crossorigin="anonymous"></script>
@@ -33,25 +45,17 @@
 				<li><a href="/public_html/Content.html">SMP</a></li>
 				<li><a href="#">SMA</a></li>
 				<li><a href="#">UMUM</a></li>
-				<li class="nav-item search">
-					<a
-						href="javascript:void(0)"
-						class="nav-link search-toggle"
-						id="search-content"
-						><i class="ti-search"></i> Search</a
-					>
-					<div class="search-wrapper">
-						<input
-							type="search"
-							class="form-control"
-							name=""
-							placeholder="search your product"
-							onchange="filterSearch()" />
-					</div>
-				</li>
+				
 			</ul>
 
+			
 			<div class="main">
+				<li class="nav-item search">
+					<a href="javascript:void(0)" class="nav-link search-toggle" id="search-content"><i class="ti-search"></i> Search</a>
+					<div class="search-wrapper">
+						<input type="search" class="form-control" name="" placeholder="search your product" onchange="filterSearch()" />
+					</div>
+				</li>
 				<a href="/public_html/login.html" class="user"
 					><i class="ri-user-fill"></i>Sign In</a
 				>
@@ -105,7 +109,7 @@
 						<div class="all menggambar">
 							<div class="post-img">
 								<img
-									src="/public_html/assets/imgs/Detail/index.jpg"
+									src="/public_html/assets/imgs/Detail/gambar.jpg"
 									alt="post" />
 								<span class="category-name">menggambar</span>
 							</div>
@@ -133,7 +137,7 @@
 						<div class="all puisi">
 							<div class="post-img">
 								<img
-									src="/public_html/assets/imgs/Detail/poster.jpg"
+									src="/public_html/assets/imgs/Detail/puisi.jpg"
 									alt="post" />
 								<span class="category-name">puisi</span>
 							</div>
@@ -160,7 +164,7 @@
 						<div class="all olahraga">
 							<div class="post-img">
 								<img
-									src="/public_html/assets/imgs/Detail/lari.jpg"
+									src="/public_html/assets/imgs/Detail/olahraga.jpg"
 									alt="post" />
 								<span class="category-name">olahraga</span>
 							</div>
